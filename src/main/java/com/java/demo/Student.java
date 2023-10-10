@@ -25,6 +25,11 @@ public Student(int id, String name) {
 public String toString() {
 	return "Student [id=" + id + ", name=" + name + "]";
 }
+public Student() {
+	super();
+	// TODO Auto-generated constructor stub
+}
+
  
 
 }
