@@ -10,8 +10,7 @@ import javax.transaction.SystemException;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
-import org.hibernate.query.NativeQuery;
-
+ 
 /**
  * 10/10/2023
  *
@@ -52,8 +51,6 @@ public class App {
 
 		        // session.delete(deleStudent);
 
-				 
-		 
 		session.flush();
 		tr.commit();
 	}
